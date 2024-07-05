@@ -1,0 +1,73 @@
+/* remove padding 15px*/
+.container-users{
+    padding: 0;
+}
+
+.panel-top{
+    margin-top: 30px;
+}
+
+/* Top avatar */
+.info-header{
+    background-color: #2ec7bb;
+    color: #fff;
+    height: 240px;
+}
+
+.info-header .avatar{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top:45px;
+}
+
+.info-header .avatar a{
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.info-header .avatar a span{
+    font-size: 13px;
+}
+
+/*Personal information*/
+.menu-panel{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0.2em 0 0 #ddd, 0 0 0 1px #ddd;
+}
+
+.menu-panel a{
+    display: inline-block;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    color: #555;
+    padding-left: 15px;
+    /*text-align: center;*/
+    background-color: #fff;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.menu-panel a.active{
+    background-color: #2ec7bb;
+    color: #fff;
+}
+
+.menu-panel a:not(.active):hover{
+    background-color: #f9f9f9;
+}
+
+/* Clipping */
+.slim .slim-file-hopper {
+    /* z-index: 2;
+    cursor: auto; */
+}
+
+.slim{
+    background-color: #fff !important;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
